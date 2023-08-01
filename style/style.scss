@@ -1,0 +1,66 @@
+.door-cont {
+    margin: 100px 672px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+.leftdoor {
+    margin: 20px;
+    width: 170px;
+    height: 450px;
+    border: 2px solid black;
+}
+.rightdoor {
+    margin: 20px;
+    width: 170px;
+    height: 450px;
+    border: 2px solid black;
+}
+.window {
+    
+    top: 130px;
+    margin: 30px;
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: rgb(2, 255, 2);
+    cursor: pointer;
+}
+.window-opened {
+    z-index: 3;
+    position: relative;
+    top: 26px;
+    left: 10px;
+    margin-left: 15px;
+
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: rgb(2, 255, 2);
+    cursor: pointer;
+    -moz-transform: scale(0.9) translate(3px, 0px) skew(1deg, -31deg);
+    -webkit-transform: scale(0.9) translate(3px, 0px) skew(1deg, -31deg);
+    -o-transform: scale(0.9) translate(3px, 0px) skew(1deg, -31deg);
+    -ms-transform: scale(0.9) translate(3px, 0px) skew(1deg, -31deg);
+    transform: scale(0.9) translate(3px, 0px) skew(1deg, -31deg);
+}
+.window-u {
+    display: none;
+    
+    
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    margin: 30px;
+}
+.window-u-visible {
+    display: block;
+    position: absolute;
+    top: 124px;
+    left: 897px;
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    margin: 30px;
+}
